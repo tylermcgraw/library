@@ -1,14 +1,35 @@
 h1 {
+    font-size: 40px;
+    font-weight: 500;
     width: 100%;
     text-align: center;
 }
 
 table {
     width: 100%;
-    border: 1px solid black;
+    border-bottom: 1px solid rgb(201, 201, 201);
     border-collapse: collapse;
 }
 
 td, tr, th {
-    border: 1px solid black
+    text-align: left;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding: 15px;
+}
+
+th {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+tr:hover {
+    background-color: rgba(201, 201, 201, 0.2);
+}
+
+input {
+    width: 90%;
+}
+
+#add-book {
+    width: 60px;
 }
