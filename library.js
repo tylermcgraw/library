@@ -32,7 +32,7 @@ function addBookToLibrary(book) {
 
 function addRow(book) {
     const table = document.getElementById("table");
-    const row = table.insertRow(1);
+    const row = table.insertRow(table.rows.length - 1);
     const name = row.insertCell(0);
     const author = row.insertCell(1);
     const checkbox = row.insertCell(2);
